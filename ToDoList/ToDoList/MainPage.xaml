@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toDoList="clr-namespace:ToDoList;assembly=ToDoList"
+             xmlns:system="clr-namespace:System;assembly=netstandard"
+             x:Class="ToDoList.MainPage"
+             x:DataType="toDoList:MainViewModel">
+
+    <StackLayout>
+        <CollectionView ItemsSource="{Binding Tasks}">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type toDoList:Item}">
+                    <Grid ColumnDefinitions="Auto, *, Auto">
+                        <CheckBox Grid.Column="0">
+
+                        </CheckBox>
+                        <Label Text ="{Binding}" Grid.Column="1">
+
+                        </Label>
+                        <Button Text ="X" Command="{Binding Source={RelativeSource AncestorType={x:Type toDoList:MainViewModel}}, Path=RemoveTask}" 
+                                CommandParameter="{Binding}" Grid.Column="2">
+
+                        </Button>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Entry ReturnCommand="{Binding AddTask}" ReturnCommandParameter="{Binding Source = {RelativeSource Self}, Path = Text}">
+
+        </Entry>
+    </StackLayout>
+
+</ContentPage>

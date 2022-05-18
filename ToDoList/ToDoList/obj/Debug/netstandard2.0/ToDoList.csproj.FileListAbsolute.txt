@@ -1,0 +1,15 @@
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/bin/Debug/netstandard2.0/ToDoList.deps.json
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/bin/Debug/netstandard2.0/ToDoList.dll
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/bin/Debug/netstandard2.0/ref/ToDoList.dll
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/bin/Debug/netstandard2.0/ToDoList.pdb
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.csproj.AssemblyReference.cache
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.AssemblyInfoInputs.cache
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.AssemblyInfo.cs
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.dll
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ref/ToDoList.dll
+/Users/markkomissarov/Downloads/ToDoList/ToDoList/ToDoList/obj/Debug/netstandard2.0/ToDoList.pdb
