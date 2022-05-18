@@ -6,7 +6,7 @@
              x:Class="ToDoList.MainPage"
              x:DataType="toDoList:MainViewModel">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="#F2E7DC">
         <CollectionView ItemsSource="{Binding Tasks}">
 
             <CollectionView.ItemTemplate>
@@ -15,10 +15,15 @@
                         <CheckBox Grid.Column="0">
 
                         </CheckBox>
-                        <Label Text ="{Binding}" Grid.Column="1">
-
+                        <Label 
+                            FontSize="24"
+                            TextColor="#038C7F"
+                            Text ="{Binding}" Grid.Column="1">
                         </Label>
-                        <Button Text ="X" Command="{Binding Source={RelativeSource AncestorType={x:Type toDoList:MainViewModel}}, Path=RemoveTask}" 
+                        <Button 
+                            WidthRequest="96"
+                            Text ="Delete" BackgroundColor="#F2E7DC" TextColor="#038C7F" Command="{Binding Source=
+                        {RelativeSource AncestorType={x:Type toDoList:MainViewModel}}, Path=RemoveTask}" 
                                 CommandParameter="{Binding}" Grid.Column="2">
 
                         </Button>
@@ -26,8 +31,13 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Entry ReturnCommand="{Binding AddTask}" ReturnCommandParameter="{Binding Source = {RelativeSource Self}, Path = Text}">
-
+        <Entry 
+            TextColor="#038C7F"
+            FontSize="24"
+            PlaceholderColor="#038C7F"
+            Placeholder="Input the task"
+            ReturnCommand="{Binding AddTask}" ReturnCommandParameter=
+               "{Binding Source = {RelativeSource Self}, Path = Text}">
         </Entry>
     </StackLayout>
 

@@ -15,5 +15,6 @@ namespace ToDoList
             InitializeComponent();
             BindingContext = new MainViewModel();
         }
+        
     }
 }

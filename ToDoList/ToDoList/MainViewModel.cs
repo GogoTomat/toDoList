@@ -8,7 +8,10 @@ namespace ToDoList
     {
         public MainViewModel()
         {
-            AddTask = new Command<string>(x => Tasks.Add(new Item(){Text = x}), x => 
+            AddTask = new Command<string>(x =>
+            {
+                Tasks.Add(new Item() { Text = x });
+            }, x => 
                 string.IsNullOrWhiteSpace(x) == false);
             RemoveTask = new Command<Item>(x => Tasks.Remove(x));
         }
